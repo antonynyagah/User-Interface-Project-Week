@@ -1,1 +1,232 @@
-/* Should be empty until you compile your LESS */
+/*------------------------------------*\
+RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0b1 | 201101 
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: #FFFFFF;
+  color: #222222;
+  font-Family: Roboto, Arial, sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Your Code Goes Here */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #828282;
+  color: #FFFFFF;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+a:hover {
+  color: #222222;
+}
+h2,
+h3 {
+  font-weight: 700;
+}
+.logo {
+  font-size: 24px;
+}
+.menu-button {
+  padding-right: 30px;
+}
+.menu {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #828282;
+  opacity: 0.75;
+  border-left: none;
+  border-bottom: none;
+  z-index: 2;
+}
+.jumbotron {
+  width: 100%;
+}
+.bigwords {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 75px;
+  margin-top: -250px;
+  margin-bottom: 100px;
+  color: white;
+}
+.container {
+  max-width: 875px;
+  width: 100%;
+  margin: 0 auto;
+}
+.bio {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.biotext,
+.designstext {
+  width: 50%;
+}
+.designstext {
+  text-align: right;
+}
+.button {
+  border: solid black 1px;
+  padding: 10px;
+  margin: 10px 10px;
+  display: inline;
+  width: 200px;
+  text-align: center;
+}
+.image1,
+.image2 {
+  width: 90%;
+}
+.image2 {
+  text-align: right;
+}
+.designs {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
