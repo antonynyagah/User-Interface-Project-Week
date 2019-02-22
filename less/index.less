@@ -135,7 +135,7 @@ h2, h3 {
   align-items: center;
 }
 
-.content-cont{
+.Architect{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -283,6 +283,41 @@ address {
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media(max-width: 500px){
+
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: -135px;
+    margin-bottom: 50px;
+  }
+
+  .bio {
+    flex-direction: column-reverse;
+    align-items: baseline;
+  }
+
+  .Architect {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  p, .button {
+    width: 100%;
+  }
+
+  .projectcontent {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .bottomcontent {
+    flex-direction: column;
+  }
+
+}
+
 
 
 
